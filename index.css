@@ -1,0 +1,47 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+#movies{
+    width: 40%;
+}
+#movie-details{
+    width: 40%;
+}
+.movie-card-detail{
+    margin: 50px 0;
+}
+
+.poster{
+    width: 100%;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.description{
+    font-weight: bold;
+}
+
+.movieCard{
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin: 50px 0;
+    word-wrap: break-word;
+}
+.movieCard ul{
+    list-style: none;
+}
+.movieCard > ul > .title{
+    margin: 15px 0;
+}
+.movieCard > ul > li > .bold{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
